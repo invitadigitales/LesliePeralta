@@ -257,7 +257,7 @@
                 <div class="px_20"><img src="greca1.png" class="w_100 filter_white"></div>
                 <button href="#" class="font_paris fspx_30 my_btn bg_white py_5 px_20 rounded color_black d_block w_100 my_20 text_shadow_dark no_link"
                         data-bs-toggle="modal" data-bs-target="#PaseModal3">
-                    <i class="fa fa-id-card-o mr_10" aria-hidden="true"></i><span>Pase General</span>
+                    <i class="fa fa-id-card-o mr_10" aria-hidden="true"></i><span>Pase para </span><span id="txt_personas">- - -</span>
                 </button>
                 <div class="px_20"><img src="greca1.png" class="w_100 filter_white rotate_180"></div>
             </center>
@@ -270,66 +270,6 @@
                <h1 class="font_bold text_center fspx_20 m_0 color_red text_uppercase">La presente invitación<br> no garantiza acceso al evento.</h1>
             </div>
         </div>
-
-
-
-
-
-
-        <!-- Modal -->
-        <div class="modal fade" id="PaseModal3">
-          <div class="modal-dialog modal-lg">
-            <div class="text_right mb_15" style="pointer-events: auto;">
-                <button class="my_btn bg_vino color_white rounded " data-bs-dismiss="modal" aria-label="Close">
-                    <i class="material-icons p_5">close</i>
-                </button>
-            </div>
-            <div class="modal-content bg_transparent">
-                <div class="rounded" id="map1">
-                    
-                    <div class="pase-xv">
-                        <div class="encabezado-xv">
-                            <h1 class="titulo-principal">XV Años</h1>
-                            <p class="subtitulo-inv">Invitación Especial</p>
-                        </div>
-                        <div class="contenido-pase">
-                     
-                            <div class="info-evento">
-                                <div class="item-detalle">
-                                    <span class="etiqueta-dato">Fecha:</span>
-                                    <span class="valor-dato">29 de noviembre, 2025</span>
-                                </div>
-                                
-                                <div class="item-detalle">
-                                    <span class="etiqueta-dato">Hora:</span>
-                                    <span class="valor-dato">XXXXX</span>
-                                </div>
-                                
-                                <div class="item-detalle">
-                                    <span class="etiqueta-dato">Lugar:</span>
-                                    <span class="valor-dato">XXXXX</span>
-                                </div>
-                                <div class="item-detalle">
-                                    <span class="etiqueta-dato">Código:</span>
-                                    <span class="valor-dato">Formal / Elegante</span>
-                                </div>
-                    
-                    
-                            </div>
-                            <p class="mensaje-inv">
-                                "Acompáñanos en esta noche mágica donde los sueños se hacen realidad. Tu presencia hará que esta celebración sea aún más especial."
-                            </p>
-                        </div>
-                    </div>  
-
-                </div>
-            </div>
-          </div>
-        </div>
-
-
-
-
 
 
         <!-- Footer -->
@@ -370,6 +310,87 @@
     </div>
 
 
+
+
+
+
+
+
+    <!-- Modal -->
+    <div class="modal fade" id="PaseModal3">
+      <div class="modal-dialog modal-lg">
+        <div class="text_right mb_15" style="pointer-events: auto;">
+            <button class="my_btn bg_vino color_white rounded " data-bs-dismiss="modal" aria-label="Close">
+                <i class="material-icons p_5">close</i>
+            </button>
+        </div>
+        <div class="modal-content px_25 py_5">
+            <div class="rounded" id="map1">
+                
+                <div class="pase-xv">
+                    <center>
+                        <h1 class="color_golden m_0 font_paris fspx_40 mt_20">Familia</h1>
+                        <h1 class="color_vino m_0 font_paris fspx_40" id="txt_famlia">- - -</h1>
+                        <h1 class="color_golden m_0 font_charm fspx_25">le invitamos cordialmente</h1>
+                    </center>
+
+                    <div class="contenido-pase">
+
+
+                        <div class="m_10">
+                            <div class="d_iflex jc_between w_100 font_times px_20">
+                                <div>Fecha : </div>
+                                <div>29 de noviembre, 2025</div>
+                            </div>                            
+                        </div>
+                        <div class="m_10">
+                            <div class="d_iflex jc_between w_100 font_times px_20">
+                                <div>Hora : </div>
+                                <div>8:30 pm</div>
+                            </div>                            
+                        </div>
+                        <div class="m_10">
+                            <div class="d_iflex jc_between w_100 font_times px_20">
+                                <div>Lugar : </div>
+                                <div>Salón Señorial</div>
+                            </div>                            
+                        </div>
+                        <div class="m_10">
+                            <div class="d_iflex jc_between w_100 font_times px_20">
+                                <div>Código : </div>
+                                <div>Formal / Elegante</div>
+                            </div>                            
+                        </div>
+                         <div class="m_10">
+                            <div class="d_iflex jc_between w_100 font_times px_20">
+                                <div>Mesa : </div>
+                                <div id="txt_mesa">- - -</div>
+                            </div>                            
+                        </div>
+                         <div class="m_10">
+                            <div class="d_iflex jc_between w_100 font_times px_20">
+                                <div>Pase para : </div>
+                                <div id="txt_personas">- - -</div>
+                            </div>                            
+                        </div>
+                       
+
+                        <p class="font_paris text_center m_0 line_height_25 fspx_25 color_golden my_10">
+                            "Acompáñanos en esta noche mágica donde los sueños se hacen realidad. Tu presencia hará que esta celebración sea aún más especial."
+                        </p>
+                        <a href="https://wa.me/9381562387?text=Hola,%20confirmo%20mi%20asistencia%20a%20tu%20evento" 
+                        class="font_paris fspx_30 my_btn bg_vino py_5 px_20 rounded color_white d_block w_100 text_center my_20 text_shadow_dark no_link">
+                            <i class="fa fa-whatsapp mr_10" aria-hidden="true"></i><span>Confirmar Asistencia</span>
+                        </a>
+
+
+                    </div>
+                </div>  
+
+            </div>
+        </div>
+      </div>
+    </div>
 
 
 
@@ -526,6 +547,8 @@ if(invitado!=null){
 
             $("#txt_famlia").html(toTitleCase(data.message.familia));
 
+            $("#txt_mesa").html(data.message.num_mesa);
+
             var n  =data.message.num_invitados;
             var str = "";
             if(n>1){
@@ -533,7 +556,7 @@ if(invitado!=null){
             }else{
                 str = str +n+" persona";
             }
-            $("#txt_personas").html(str);
+            $("*#txt_personas").html(str);
 
             console.log(data.message);
             //$("#exampleModal").html(data);

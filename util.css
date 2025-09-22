@@ -195,10 +195,6 @@
 }
 
 
-
-.d_block{
-    display: block;
-}
 .m_0a {
     margin: 0 auto;
 }
@@ -1714,4 +1710,23 @@ h4 {
   
   /* Previene el menú contextual */
   pointer-events: none;
+}
+
+.cur_pointer{
+    cursor: pointer;
+}
+
+.liststyle_none{
+    list-style: none;
+}
+
+.d_none{
+    display: none !important;
+}
+
+.d_block{
+    display: block;
+}
+.d_iflex{
+    display: inline-flex;
 }
